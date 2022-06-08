@@ -1,13 +1,13 @@
-package com.jimmy.androidcircle.andoridstudyjam_2022
+package com.jimmy.androidstudyjam_2022.tiptime
 
 import androidx.test.espresso.Espresso.onView
-import androidx.test.espresso.action.ViewActions
 import androidx.test.espresso.action.ViewActions.*
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.jimmy.andoridstudyjam_2022.tiptime.MainActivity
 import org.hamcrest.Matchers.containsString
 import org.junit.Rule
 import org.junit.Test
@@ -37,7 +37,7 @@ class CalculatorTests {
     }
 
     @Test
-    fun calculate_18_percent_tip(){
+    fun calculate_18_percent_tip() {
         onView(withId(R.id.cost_of_service_edit_text))
             .perform(typeText("100.00"))
             .perform(closeSoftKeyboard())
@@ -53,7 +53,7 @@ class CalculatorTests {
     }
 
     @Test
-    fun calculate_without_round_up_ticked(){
+    fun calculate_without_round_up_ticked() {
         onView(withId(R.id.cost_of_service_edit_text))
             .perform(typeText("40.00"))
             .perform(closeSoftKeyboard())

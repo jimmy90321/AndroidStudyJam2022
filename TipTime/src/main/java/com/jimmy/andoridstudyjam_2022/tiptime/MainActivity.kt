@@ -1,4 +1,4 @@
-package com.jimmy.androidcircle.andoridstudyjam_2022
+package com.jimmy.andoridstudyjam_2022.tiptime
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
@@ -6,7 +6,8 @@ import android.os.Bundle
 import android.view.KeyEvent
 import android.view.View
 import android.view.inputmethod.InputMethodManager
-import com.jimmy.androidcircle.andoridstudyjam_2022.databinding.ActivityMainBinding
+import com.jimmy.androidstudyjam_2022.tiptime.R
+import com.jimmy.androidstudyjam_2022.tiptime.databinding.ActivityMainBinding
 import java.text.NumberFormat
 
 class MainActivity : AppCompatActivity() {

@@ -7,4 +7,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "AndoridStudyJam_2022"
-include ':app'
+include ':TipTime'

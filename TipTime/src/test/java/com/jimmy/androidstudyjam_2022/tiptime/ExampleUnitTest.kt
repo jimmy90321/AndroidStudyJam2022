@@ -1,4 +1,4 @@
-package com.jimmy.androidcircle.andoridstudyjam_2022
+package com.jimmy.androidstudyjam_2022.tiptime
 
 import org.junit.Test
 
