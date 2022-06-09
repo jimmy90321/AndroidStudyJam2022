@@ -7,5 +7,6 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "AndoridStudyJam_2022"
-include ':TipTime'
+include ':tiptime'
 include ':diceroller'
+include ':affirmations'
